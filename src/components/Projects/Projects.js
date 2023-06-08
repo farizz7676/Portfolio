@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import mini from "../../Assets/Projects/MiniProj.png";
 import snake from "../../Assets/Projects/Snake.png";
+import calcu from "../../Assets/Projects/calc.png";
 
 function Projects() {
   return (
@@ -55,12 +56,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={calcu}
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/farizz7676/calculator"
+              demoLink="https://farizz7676.github.io/calculator/"              
             />
           </Col>
 
